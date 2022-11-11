@@ -33,7 +33,7 @@ const App = () => {
   
   
   const maxVotes = 
-      votes.reduce((r, a) => (
+      votes.reduce((r, a) => (  -        
         r > a ? r : a
       ))
 
